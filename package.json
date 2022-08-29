@@ -1,0 +1,28 @@
+{
+  "name": "writeinrequests",
+  "version": "1.0.0",
+  "description": "Application to send Write in requests to departments",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilco-bwassink/writeInRequests.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilco-bwassink/writeInRequests/issues"
+  },
+  "homepage": "https://github.com/wilco-bwassink/writeInRequests#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

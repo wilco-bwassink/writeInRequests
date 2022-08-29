@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write In Requests</title>
+  <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- <form target="_blank" action="https://formsubmit.co/f957528ba6170470cecee519550bc215" method="POST" class="requestForm"> -- This is for the formsubmit.co version of sending email -->
+  <form target="_blank" action=" " method="POST" class="requestForm">
+    <div class="questionGroup">
+      <label for="department" class="formTitle" id="departmentTitle">Select Department:</label>
+      <select type="dropdown" class="formInput" id="department" name="Department Title">
+        <option value="COVID-19">COVID-19</option>
+        <option value="Brush or Bulk">Brush or Bulk</option>
+        <option value="Child Support">Child Support</option>
+        <option value="Dead Animal">Dead Animal</option>
+        <option value="Divorce">Divorce</option>
+        <option value="Drainage">Drainage</option>
+        <option value="Elections">Elections</option>
+        <option value="Employment">Employment</option>
+        <option value="foreclosures">Foreclosures</option>
+        <option value="Hazardous Dump or Leak">Hazardous Dump or Leak</option>
+        <option value="Illegal Storage">Illegal Storage</option>
+        <option value="Jury Duty">Jury Duty</option>
+        <option value="Motor Vehicle Taxes">Motor Vehicle Taxes</option>
+        <option value="Name Change">Name Change</option>
+        <option value="Park Maintenance">Park Maintenance</option>
+        <option value="Property Taxes">Property Taxes</option>
+        <option value="Road Repairs">Road Repairs</option>
+        <option value="Tickets">Tickets/Citations</option>
+        <option value="Traffic Safety">Traffic Safety</option>
+        <option value="Traffic Signs">Traffic Signs</option>
+        <option value="Vandalism">Vandalism</option>
+        <option value="Grass Maintenance">Weed/Grass Maintenance</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="questionGroup">
+      <label for="address" class="formTitle" id="addressOfRequest">Address/Location of Request:</label>
+      <input type="text" class="formInput" id="address" name="Address Of Request">
+    </div>
+    <div class="questionGroup">
+      <label for="description" class="formTitle" id="briefDescription">Brief Description:</label>
+      <textarea type="text" class="formInput" id="description" name="Brief Description"></textarea>
+    </div>
+    <div class="questionGroup">
+      <label for="contactPref" class="formTitle" id="contactPreference">Contact Preference:</label>
+      <select type="dropdown" class="formInput" id="contactPref" name="Contact Preference">
+        <option value="No Contact">Do not contact me</option>
+        <option value="Phone Contact">Contact me by phone</option>
+        <option value="Email Contact">Contact me by email</option>
+      </select>
+    </div>
+    <div class="questionGroup">
+      <label for="name" class="formTitle" id="fullName">Full Name:</label>
+      <input type="text" class="formInput" id="name" name="Full Name">
+    </div>
+    <div class="questionGroup">
+      <label for="phone" class="formTitle" id="phoneNumber">Phone:</label>
+      <input type="tel" class="formInput" id="phone" name="Phone Number">
+    </div>
+    <div class="questionGroup">
+      <label for="email" class="formTitle" id="emailAddress">Email:</label>
+      <input type="email" class="formInput" id="email" name="Email Address">
+    </div>
+    <button type="submit">Send Request</button>
+  </form>
+
+  <script src="/JS/app.js"></script>
+</body>
+</html>
