@@ -39,6 +39,6 @@ contactForm.addEventListener('submit', (e)=>{
     }
   }
 
-  xhr.send(JSON.stringify(formData))
+  xhr.send(JSON.stringify(formData));
 
 })
