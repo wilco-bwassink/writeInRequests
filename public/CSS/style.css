@@ -24,3 +24,11 @@ body {
 label {
   width: 50%;
 }
+
+.ticketsExtra {
+  display: none;
+}
+
+.drainageExtra {
+  display: none;
+}

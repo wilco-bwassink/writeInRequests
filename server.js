@@ -18,7 +18,7 @@ app.post('/', (req, res)=>{
   console.log(req.body);
 
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP, //This part right here is probably my big problem This is where the custom server stuff is https://youtu.be/30VeUWxZjS8?t=1980
+    host: process.env.SMTP, //This part right here is probably my big problem This is where the custom server stuff is https://youtu.be/30VeUWxZjS8?t=1980 
     auth: {
       user: process.env.FROM,
       pass: process.env.PASS
